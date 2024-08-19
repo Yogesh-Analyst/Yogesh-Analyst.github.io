@@ -54,28 +54,38 @@
 	      </div>
 	    </div>
 	  </nav>
-	  <section id="home-section" class="hero">
-		  <div class="home-slider  owl-carousel">
-	      <div class="slider-item ">
-	      	<div class="overlay"></div>
-	        <div class="container">
-	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/Profile.jpg);">
+	 <section id="home-section" class="hero">
+    <div class="slider-item">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+                <div class="col-12 col-md-6 order-md-last img" style="background-image:url(images/Profile.jpg);">
+                    <div class="overlay"></div>
+                </div>
+                <div class="col-12 col-md-6 d-flex align-items-center ftco-animate text-container" data-scrollax="properties: { translateY: '70%' }">
+                    <div class="text">
+                        <span class="subheading">Hello!</span>
+                        <h1 class="mb-4 mt-3">I'm <span>Yogesh</span></h1>
+                        <h2 class="mb-4">Data Analyst</h2>
+                        <p><a href="https://www.linkedin.com/in/iamyogeshwaran/" class="btn btn-primary py-3 px-4">Hire me</a> 
+                        <a href="https://github.com/Yogesh-Analyst" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-	          		<div class="overlay"></div>
-	          	</div>
-		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		          	<div class="text">
-		          		<span class="subheading">Hello!</span>
-			            <h1 class="mb-4 mt-3">I'm <span>Yogesh</span></h1>
-			            <h2 class="mb-4">Data Analyst</h2>
-			            <p><a href="https://www.linkedin.com/in/iamyogeshwaran/" class="btn btn-primary py-3 px-4">Hire me</a> <a href="https://github.com/Yogesh-Analyst" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
-		            </div>
-		          </div>
-	        	</div>
-	        </div>
-	      </div>
-    </section>
+<style>
+    #home-section .hero .img {
+        height: 300px; /* Adjust the height as needed */
+        background-size: cover;
+        background-position: center;
+    }
+
+    #home-section .hero .text-container {
+        padding: 20px;
+    }
 
     <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
     	<div class="container">
